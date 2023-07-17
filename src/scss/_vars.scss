@@ -1,0 +1,12 @@
+:root {
+  --font-family: "Playfair", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 0px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --black: #121221;
+  --black-grey: #444444;
+  --grey: #6C6C6C;
+  --light-grey: #949494;
+  --light-color: #F8F8F8;
+  --light: #FDFDFD;
+}

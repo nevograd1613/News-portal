@@ -1,0 +1,53 @@
+.header {
+   margin-top: 32px;
+   padding-bottom: 56px;
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__logo {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 0em;
+      color: var(--black);
+      &:hover {
+         color: var(--black);
+      }
+      span {
+         background-color: var(--black);
+         color: var(--light-color);
+         border-radius: 4px;
+         padding: 8px;
+         margin-left: -10px;
+         margin-right: 10px;
+      }
+   }
+   &__items {
+      display: flex;
+      gap: 32px;
+   }
+   &__search {
+      cursor: pointer;
+   }
+   &__burger {
+      cursor: pointer;
+   }
+}
+
+@media (max-width: 1200px) {
+   .header__logo {
+      span {
+         margin-left: 0;
+      }
+   }
+   .header {
+      padding-bottom: 48px;
+   }
+}
+
+@media (max-width: 768px) {
+   .header {
+      padding-bottom: 40px;
+   }
+}
